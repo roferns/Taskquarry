@@ -1,0 +1,144 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media  screen and (width < 992px) {
+    .navbar{
+        font-size: small;
+    }
+
+    body h3{
+        font-size: 3vw;
+    }
+
+    body h4{
+        font-size: 2.8vw;
+    }
+
+    body h5{
+        font-size: 2.6vw;
+    }
+    
+    body a{
+        font-size: 2.6vw;
+    }
+
+    p{
+        font-size: 2.2vw;
+    }
+
+    body .btn-sm{
+        font-size: 2.4vw;
+    }
+
+    footer #connect{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        display: none;
+    }
+
+    #idea {
+        display: none;
+    }
+}
+
+@media screen and (width >= 992px ) {
+    #statssmall{
+        display: none;
+    }    
+}
+
+
+
+#company_info img{
+    border: 1px solid black;
+}
+
+#main{
+    padding-top: 2%;
+    background-color: rgb(249, 246, 241);
+}
+
+#main h3{
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+
+#main .numbers{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.five{
+    margin: 2% 0;
+    padding: 2% 0;
+    border-bottom: 1px solid black;
+}
+
+#main .right h5 {
+    color: rgb(89, 87, 87);
+    font-weight: bold;
+}
+
+nav{
+    font-weight: 500;
+}
+
+.row a{
+    color: rgb(255, 77, 0);
+    text-decoration: none;
+}
+
+#statssmall{
+    margin: 4% 0;
+    visibility: visible;
+}
+
+#statssmall .col{
+    padding: 2% 0;
+    margin: 0 2%;
+    background-color: antiquewhite;
+}
+
+#statssmall h5{
+    color: rgb(89, 87, 87);
+    font-weight: bold;
+}
+
+#statssmall .numbers{
+    font-weight: 600;
+    font-size: 6vw;
+    margin: 0;
+}
+
+
+
+footer{
+    padding: 2% 0;
+}
+
+footer h6{
+    font-weight: 600;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer #connect{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .text-center{
+    border-top: 1px solid black;
+    padding-top: 1%;
+}
